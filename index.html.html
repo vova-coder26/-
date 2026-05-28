@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Мой первый сайт</title>
+        <link rel="icon" href="опять что-то.png" type="images/png">
+        <style>
+            li {
+                color: #ffffff;
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            ul {
+                margin-left: 20px;
+                display: inline-block;
+                text-align: left;
+            }
+            img {
+                border-radius: 20px;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            }
+            .my-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.my-button:hover {
+    background-color: #ff7043;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    }
+    .container {
+text-align: center;
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+    }
+    body {
+        background-image: linear-gradient(135deg, #a188f8, #6076ff);
+        background-attachment: fixed;
+        margin: 0;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 style="color: blue;">Привет, мир!</h1>
+            <h2 style="color: rgb(1, 1, 66);">Это мой первый сайт</h2>
+            <h3 style="color: rgb(8, 0, 58);">Расскажу немного о себе:</h3>
+            <ul>
+                <li onclick="alert('Привет! Рад видеть тебя на моём сайте!');"color: white; cursor: pointer;>Меня зовут Вова (кликни сюда)</li>
+                <li style="color: white;">Мне 10 лет</li>
+                <li style="color: white;">Я люблю программировать</li>
+            </ul>
+            <br><br>
+            <img src="ава.jpg" alt="Моя фотка" width="250">
+            <h4>----------------------моя фотка----------------------</h4>
+            <a href="https://rutube.ru/channel/75084135/" class="my-button" target="_blank">Мой рутуб-канал</a>
+            <a href="https://web.max.ru/-73971246330076" class="my-button" target="_blank">Мой MAX-канал с мемами</a>
+        </div>
+    </body>
+</html>
